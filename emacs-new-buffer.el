@@ -1,4 +1,4 @@
-;;; emacs-new-buffer.el --- Quickly create new buffers to take notes and more -*- lexical-binding: t; coding: utf-8; -*-
+;;; emacs-new-buffer.el --- Quickly create new buffers to take notes and more
 
 ;; This file is not part of Emacs
 
@@ -6,7 +6,7 @@
 ;; Keywords: convenience
 ;; Maintainer: Mohammed Ismail Ansari <team.terminal@gmail.com>
 ;; Created: 2017/10/26
-;; Package-Requires: ((emacs "24") (cl-lib "0.5"))
+;; Package-Requires: ((emacs "24"))
 ;; Description: Quickly create new buffers to take notes and more
 ;; URL: http://ismail.teamfluxion.com
 ;; Compatibility: Emacs24
@@ -58,8 +58,6 @@
 ;;
 
 ;;; Code:
-
-(require 'cl-lib)
 
 (defun emacs-new-buffer-now ()
   "Creates a new buffer with timestamp as the name"
