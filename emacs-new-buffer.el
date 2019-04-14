@@ -33,7 +33,7 @@
 ;;
 ;;     (require 'emacs-new-buffer)
 ;;
-;; Quickly create a buffer with name as current timestamp
+;; Quickly create a buffer with the name as current timestamp
 ;;
 ;;     M-x emacs-new-buffer-now RET
 ;;

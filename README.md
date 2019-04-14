@@ -27,7 +27,7 @@ If you have Marmalade added as a repository to your Emacs, you can just install 
 
 ## Usage
 
-Quickly create a buffer with name as current timestamp
+Quickly create a buffer with the name as current timestamp
 
     M-x emacs-new-buffer-now RET
 
